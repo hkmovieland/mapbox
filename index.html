@@ -160,7 +160,7 @@ chun mapbox test 2
             });
 
             // Change the cursor to a pointer when the mouse is over the places layer.
-            map.on('mouseenter', 'csvData', function () {
+            map.on('click', 'csvData', function () {
               map.getCanvas().style.cursor = 'pointer';
             });
 
